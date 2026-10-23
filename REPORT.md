@@ -11,14 +11,20 @@ tests, cross type-check/clippy for x86_64-pc-windows-msvc and the Windows CI.
 - Windows code type-checked and clippy-clean for x86_64-pc-windows-msvc.
 
 ## Unverified (needs the live probe / Alex's PC)
-- Live answers of both sources (see "Which source works").
+- Leaguepedia fallback: live answer never seen (rate limited, see below).
+- Why LEC/LPL/LCK/LCS/CBLOL show 0 matches in the probe (36 Intl): the API
+  returned no upcoming domestic events on 2026-10-23, most likely off-season
+  while Worlds runs; not confirmed independently.
 - Taskbar placement, tray menu, balloon, Start with Windows on a real PC.
-- The public x-api-key (0TvQ...) is the one used by the lolesports.com client
-  and by several open-source projects; found via GitHub code search, not in
-  the site's own JavaScript (host not reachable from the build sandbox).
+- The x-api-key came from open-source projects (GitHub code search), not from
+  the site's own JavaScript; the CI probe confirmed it works today.
 
 ## Which source works
-- Pending: first CI run (probe step, artifact probe.txt).
+- lolesports gateway WORKS (CI probe, Windows runner, 2026-10-23): getLeagues,
+  getSchedule, getLive all HTTP 200; 51 leagues, 14 wanted; 36 upcoming
+  Worlds matches, first one LIVE. It ships as default.
+- Leaguepedia Cargo: HTTP 200 but {"error":"ratelimited"} from the runner,
+  so unverified; kept as automatic fallback.
 
 ## Behaviour notes
 - Order: lolesports gateway, then Leaguepedia Cargo as automatic fallback.
