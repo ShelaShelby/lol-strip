@@ -1,0 +1,14 @@
+{"data":{"leagues":[
+{"id":"98767991299243165","slug":"lcs","sport":"lol","image":"http://static.lolesports.com/leagues/LCS.png","name":"LCS","region":"NORTH AMERICA"},
+{"id":"98767991302996019","slug":"lec","sport":"lol","image":"http://static.lolesports.com/leagues/lec.png","name":"LEC","region":"EUROPE"},
+{"id":"98767991310872058","slug":"lck","sport":"lol","image":"http://static.lolesports.com/leagues/lck.png","name":"LCK","region":"KOREA"},
+{"id":"98767991314006698","slug":"lpl","sport":"lol","image":"http://static.lolesports.com/leagues/lpl.png","name":"LPL","region":"CHINA"},
+{"id":"98767991332355509","slug":"cblol-brazil","sport":"lol","image":"http://static.lolesports.com/leagues/cblol.png","name":"CBLOL","region":"BRAZIL"},
+{"id":"98767975604431411","slug":"worlds","sport":"lol","image":"http://static.lolesports.com/leagues/worlds.png","name":"Worlds","region":"INTERNATIONAL"},
+{"id":"98767991325878492","slug":"msi","sport":"lol","image":"http://static.lolesports.com/leagues/msi.png","name":"MSI","region":"INTERNATIONAL"},
+{"id":"113464388705111224","slug":"first_stand","sport":"lol","image":"http://static.lolesports.com/leagues/fs.png","name":"First Stand","region":"INTERNATIONAL"},
+{"id":"110988878756156222","slug":"road_of_legends","sport":"lol","image":"x","name":"Road of Legends","region":"INTERNATIONAL"},
+{"id":"98767991295297326","slug":"all-star","sport":"lol","image":"x","name":"All-Star Event","region":"INTERNATIONAL"},
+{"id":"105266091639104326","slug":"lck_challengers_league","sport":"lol","image":"x","name":"LCK Challengers","region":"KOREA"},
+{"id":"98767991349978712","slug":"ljl-japan","sport":"lol","image":"x","name":"LJL","region":"JAPAN"}
+]}}

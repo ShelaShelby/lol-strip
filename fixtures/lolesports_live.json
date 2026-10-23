@@ -1,0 +1,4 @@
+{"data":{"schedule":{"events":[
+{"id":"2001","startTime":"2026-10-25T08:30:00Z","state":"inProgress","type":"match","league":{"name":"LPL","slug":"lpl","id":"98767991314006698","image":"x"},"match":{"id":"1002","teams":[{"name":"Bilibili Gaming","code":"BLG"},{"name":"JD Gaming","code":"JDG"}],"strategy":{"type":"bestOf","count":3}}},
+{"id":"2002","type":"match","league":{"name":"CBLOL","slug":"cblol-brazil"},"match":{"id":"1007","teams":[{"name":"paiN Gaming","code":"PNG"},{"name":"LOUD","code":"LLL"}],"strategy":{"type":"bestOf","count":3}}}
+]}}}
